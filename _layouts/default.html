@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  {% seo %}
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  {% include head-custom.html %}
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <div class="header-link">
+        <a href="{{ '/' | relative_url }}">⏴{{ site.title | default: site.github.repository_name }}</a>
+      </div>
+      <hr />
+    </header>
+
+    <main>
+    {{ content }}
+    </main>
+
+    <footer>
+      <hr />
+      <div class="theme-credits">
+        Based on <a href="https://github.com/pages-themes/midnight">midnight theme</a>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
