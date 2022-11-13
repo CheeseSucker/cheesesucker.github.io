@@ -38,6 +38,6 @@ const MyApp<T> = (): ReactNode => {
 
 ## Inline syntax highlighting?
 
-Question: If I have a paragraph with some untyped html `<html>` and some typed `<html>`{:.html} will one of them have proper syntax highlighting?
+Question: If I have a paragraph with some untyped html `<html id="test">Content</html>` and some typed `<html id="test">Content</html>`{: .language-html} will one of them have proper syntax highlighting?
 
 Answer: <select><option>Select</option><option>Yes</option><option>No</option></select>
